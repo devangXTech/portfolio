@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body data-spy="scroll" data-target=".navbar-nav" data-offset="30">
+
+    <!-- start nav -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar navbar-dark navbar-expand-md">
+                <a href="index.html" class="navbar-brand">
+                    <img src="img/logo.png" alt="logoImg" class="img-fluid">
+                </a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link active">home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#services" class="nav-link">services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#portfolio" class="nav-link">portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#testimonials" class="nav-link">testimonials</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">blog</a>
+                            <div class="dropdown-menu">
+                                <a href="bloglist.html" target="_self" class="dropdown-item">blog list</a>
+                                <a href="singleblog.html" class="dropdown-item">single post</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- end nav -->
+
+    <!-- start home -->
+    <section id="home" class="home d-flex justify-content-center align-items-center">
+        <div class="container d-flex justify-content-center">
+            <div class="content text-center">
+                <h2>HELLO I'M</h2>
+                <h1 class="typing-effect">i am a web developer</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas corporis sed nemo dolor ipsum
+                    commodi cupiditate ipsa eius beatae ab.</p>
+                <a href="#" class="transparent-btn">download CV</a>
+            </div>
+        </div>
+    </section>
+    <!-- end home -->
+
+    <!-- start about  -->
+    <section id="about" class="about padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 d-none d-md-block">
+                    <img src="img/man.png" alt="manImg" class="img-fluid">
+                </div>
+                <div class="col-md-8 col-sm-10">
+                    <div class="content">
+                        <h2 class="heading">about me</h2>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                            architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+                            aspernatur aut odit aut fugit, sed quia consequuntur</p>
+                        <p>magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
+                            dolorem ipsum quia dolor si voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
+                            quia consequuntur</p>
+                        <a href="#" class="main-btn">download CV</a>
+                        <a href="#" class="transparent-btn">portfolio</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- end about  -->
+
+    <!-- start services  -->
+    <section id="services" class="services padding">
+        <div class="heading">services</div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="box">
+                        <i class="fas fa-cog"></i>
+                        <h3>creative design</h3>
+                        <p>Lorem Ipsum simply text of the printing and type setting industry when an unknown printing
+                            simply</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="box">
+                        <i class="fas fa-cog"></i>
+                        <h3>Clean Code</h3>
+                        <p>Lorem Ipsum simply text of the printing and type setting industry when an unknown printing
+                            simply</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="box">
+                        <i class="fas fa-cog"></i>
+                        <h3>Responsive Design</h3>
+                        <p>Lorem Ipsum simply text of the printing and type setting industry when an unknown printing
+                            simply</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="box">
+                        <i class="fas fa-cog"></i>
+                        <h3>Bootstrap 4</h3>
+                        <p>Lorem Ipsum simply text of the printing and type setting industry when an unknown printing
+                            simply</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="box">
+                        <i class="fas fa-cog"></i>
+                        <h3>Font Icons</h3>
+                        <p>Lorem Ipsum simply text of the printing and type setting industry when an unknown printing
+                            simply</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="box">
+                        <i class="fas fa-cog"></i>
+                        <h3>Awesome Support</h3>
+                        <p>Lorem Ipsum simply text of the printing and type setting industry when an unknown printing
+                            simply</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end services  -->
+
+    <!-- start counter  -->
+    <div class="jumbotron padding" id="counter">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="counter-box">
+                        <i class="fas fa-star"></i>
+                        <div class="number-counter" data-count="500">0</div>
+                        <p>happy clients</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="counter-box">
+                        <i class="fas fa-globe-asia"></i>
+                        <div class="number-counter" data-count="1000">0</div>
+                        <p>projects completed</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="counter-box">
+                        <i class="fas fa-file-pdf"></i>
+                        <div class="number-counter" data-count="200">0</div>
+                        <p>files downloaded</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="counter-box">
+                        <i class="fas fa-code"></i>
+                        <div class="number-counter" data-count="5200">0</div>
+                        <p>lines of code</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end counter  -->
+
+    <!-- start portfolio -->
+    <section class="portfolio padding" id="portfolio">
+        <div class="heading">portfolio</div>
+        <ul class="filter-nav py-5 text-center d-flex justify-content-center">
+            <li class="filter-nav-item active" data-target="all">all</li>
+            <li class="filter-nav-item" data-target="marketing">marketing</li>
+            <li class="filter-nav-item" data-target="design">design</li>
+            <li class="filter-nav-item" data-target="development">development</li>
+        </ul>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 filter-item-parent marketing">
+                    <div class="filter-item">
+                        <img src="img/1.jpg" alt="">
+                        <div class="img-overlay">
+                            <h3>brex logo</h3>
+                            <p>brand</p>
+                            <i class="fas fa-eye"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 filter-item-parent marketing">
+                    <div class="filter-item">
+                        <img src="img/2.jpg" alt="">
+                        <div class="img-overlay">
+                            <h3>brex logo</h3>
+                            <p>brand</p>
+                            <i class="fas fa-eye"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 filter-item-parent design">
+                    <div class="filter-item">
+                        <img src="img/3.jpg" alt="">
+                        <div class="img-overlay">
+                            <h3>brex logo</h3>
+                            <p>brand</p>
+                            <i class="fas fa-eye"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 filter-item-parent design">
+                    <div class="filter-item">
+                        <img src="img/4.jpg" alt="">
+                        <div class="img-overlay">
+                            <h3>brex logo</h3>
+                            <p>brand</p>
+                            <i class="fas fa-eye"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 filter-item-parent development">
+                    <div class="filter-item">
+                        <img src="img/5.jpg" alt="">
+                        <div class="img-overlay">
+                            <h3>brex logo</h3>
+                            <p>brand</p>
+                            <i class="fas fa-eye"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 filter-item-parent development">
+                    <div class="filter-item">
+                        <img src="img/6.jpg" alt="">
+                        <div class="img-overlay">
+                            <h3>brex logo</h3>
+                            <p>brand</p>
+                            <i class="fas fa-eye"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row img-container">
+            <div class="col-5 img">
+                <img src="img/1.jpg" class="position-relative">
+                <i class="fas fa-times" id="close-btn"></i>
+            </div>
+        </div>
+    </section>
+    <!-- end portfolio -->
+
+    <!-- start testimonials  -->
+    <section class="testimonials padding" id="testimonials">
+        <div class="heading">Testimonials</div>
+        <div class="row justify-content-center">
+            <div class="col-md-6 mx-auto">
+                <div class="carousel slide" data-ride="carousel" id="slider">
+                    <ol class="carousel-indicators">
+                        <li data-target="#slider" data-slide-to="0" class="active"></li>
+                        <li data-target="#slider" data-slide-to="1"></li>
+                        <li data-target="#slider" data-slide-to="2"></li>
+                    </ol>
+                    <a href="#slider" class="carousel-control-prev" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a href="#slider" class="carousel-control-next" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="box">
+                                <div class="comma">❞</div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ipsum quia fugit
+                                    itaque omnis enim deleniti voluptate nam repudiandae totam.</p>
+                                <img src="img/pic1.png">
+                                <h3 class="name">mrs. clu</h3>
+                                <h4 class="work">web designer</h4>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="box">
+                                <div class="comma">❞</div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ipsum quia fugit
+                                    itaque
+                                    omnis enim deleniti voluptate nam repudiandae totam.</p>
+                                <img src="img/pic2.png">
+                                <h3 class="name">john deo</h3>
+                                <h4 class="work">UI/UX designer</h4>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="box">
+                                <div class="comma">❞</div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ipsum quia fugit
+                                    itaque
+                                    omnis enim deleniti voluptate nam repudiandae totam.</p>
+                                <img src="img/pic3.png">
+                                <h3 class="name">mrs. clu</h3>
+                                <h4 class="work">full stack developer</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end testimonials  -->
+
+    <!-- start blog  -->
+    <section class="blog padding" id="blog">
+        <div class="heading">our blog</div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="box">
+                        <div class="web">web</div>
+                        <img src="img/blog1.png">
+                        <div class="content">
+                            <h3>Master These Awesome</h3>
+                            <h4>By Dorian Gray, Jun 27, 2018</h4>
+                            <p>Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting
+                                industry. Lorem Ipsum has been</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="box">
+                        <div class="web">web</div>
+                        <img src="img/blog2.png">
+                        <div class="content">
+                            <h3>Best Design Items to Appeal</h3>
+                            <h4>By Dorian Gray, Jun 27, 2018</h4>
+                            <p>Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting
+                                industry. Lorem Ipsum has been</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="box">
+                        <div class="web">web</div>
+                        <img src="img/blog3.png">
+                        <div class="content">
+                            <h3>The 20 Best Lightroom Presets</h3>
+                            <h4>By Dorian Gray, Jun 27, 2018</h4>
+                            <p>Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting
+                                industry. Lorem Ipsum has been</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end blog  -->
+
+    <!-- start contact  -->
+    <section class="contact padding" id="contact">
+        <div class="heading">get in touch</div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <form>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <input type="text" placeholder="name" class="form-control">
+                            </div>
+                            <div class="col-sm-6">
+                                <input type="email" placeholder="email" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="subject">
+                        </div>
+                        <div class="form-group form-group-lg">
+                            <textarea class="form-control" placeholder="message"></textarea>
+                        </div>
+                        <input type="submit" value="send now!">
+                    </form>
+                </div>
+                <div class="col-md-4 px-5">
+                    <div class="box">
+                        <div class="fas fa-map-marker-alt icon"></div>
+                        <p>2651 Main Street, Suit 124</p>
+                        <p>Seattle, WA, 98101</p>
+                    </div>
+                    <div class="box">
+                        <div class="fas fa-mobile icon"></div>
+                        <p>0123456789</p>
+                        <p>0345627891</p>
+                    </div>
+                    <div class="box">
+                        <div class="icon">@</div>
+                        <p>hello@thetheme.io</p>
+                        <p>inf0@brex-theme.io</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end contact  -->
+
+    <!-- start footer  -->
+    <footer class="padding">
+       <div class="container">
+           <div class="row">
+               <div class="col-12 text-center">
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+                <p>All Right Resceved 2021</p>
+               </div>
+           </div>
+       </div>
+    </footer>
+    <!-- end footer  -->
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
